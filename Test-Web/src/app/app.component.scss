@@ -1,0 +1,71 @@
+.usf-root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+mat-toolbar {
+  height: 100px;
+  background-color: #ffffff;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #d1d7da;
+  mat-toolbar-row {
+    height: 100%;
+    padding: 0;
+    .mat-icon-botton {
+      width: 50px;
+    }
+    .usf-hamburger {
+      width: 98px;
+    }
+    .usf-logo {
+      width: 160px;
+      height: 55px;
+      background-image: url(../assets/images/angular.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    .usf-title {
+      padding-left: 20px;
+    }
+
+    .usf-subtitle {
+      font-weight: 300;
+      font-size: 14px;
+      margin-right: 30px;
+    }
+    .usf-spacer {
+      flex: 1 1 auto;
+    }
+    .usf-vertical-spacer {
+      border: 1px solid #d9dada;
+      height: 42px;
+    }
+    mat-icon {
+      fill: #676a6c;
+    }
+  }
+}
+
+mat-sidenav-container {
+  flex: 1;
+  background-color: #e2e9ed;
+
+  mat-sidenav {
+    padding-top: 20px;
+    width: 250px;
+  }
+  mat-sidenav-content {
+    padding: 20px;
+  }
+}
+
+.pl-20 {
+  padding-left: 25px;
+}
+
+.pr-20 {
+  padding-right: 40px;
+}
