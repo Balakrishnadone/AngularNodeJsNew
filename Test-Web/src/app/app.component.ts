@@ -10,4 +10,11 @@ export class AppComponent {
   userName = 'test ssgfsdf sdfsd';
 
   logOut() {}
+
+  // ===== 08/17/20121 =============
+  // ng g module Reporting --routing
+  // ng g c reportingDashboard
+  // add new module
+  // add my routings
+  // Lazy loading
 }

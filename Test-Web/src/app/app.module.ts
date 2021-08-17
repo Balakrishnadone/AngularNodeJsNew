@@ -13,8 +13,10 @@ import { HttpErrorHandler } from './services/http-error-handler.service';
 import { MessageService } from './services/message.service';
 import { AppMaterialModule } from './shared/app-material/app-material.module';
 
+import { myAppRoutings } from './app-routing.module';
+
 @NgModule({
-  declarations: [AppComponent, MessageComponent, PageNotFoundComponent],
+  declarations: [AppComponent, MessageComponent, myAppRoutings],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
