@@ -7,16 +7,16 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { MessageComponent } from './message/message.component';
-import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { HttpErrorHandler } from './services/http-error-handler.service';
 import { MessageService } from './services/message.service';
 import { AppMaterialModule } from './shared/app-material/app-material.module';
 
 import { myAppRoutings } from './app-routing.module';
+import { HeaderComponent } from './common/components/header/header.component';
+import { FooterComponent } from './common/components/footer/footer.component';
 
 @NgModule({
-  declarations: [AppComponent, MessageComponent, myAppRoutings],
+  declarations: [AppComponent, myAppRoutings, HeaderComponent, FooterComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
